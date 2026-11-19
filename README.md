@@ -1,4 +1,4 @@
-# Temperatura y pesca de atún aleta amarilla en el Domo Térmico de Costa Rica
+# Relación de anomalías mensuales de temperatura superficial del mar con la captura por lance de atún aleta amarilla (Thunnus albacares) en la zona del Domo Térmico de Costa Rica
 
 ## Integrantes
 
