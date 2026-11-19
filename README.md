@@ -2,8 +2,8 @@
 
 ## Integrantes
 
-- Jesús Compaire
-- Barbara 
+- Jesús C. Compaire
+- Barbara Zavala
 - Silvia Ramírez
 
 ## Herramientas utilizadas
