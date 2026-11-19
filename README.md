@@ -2,9 +2,9 @@
 
 ## Integrantes
 
-- Jesús C. Compaire
-- Barbara Zavala
 - Silvia Ramírez
+- Barbara Zavala
+- Jesús C. Compaire
 
 ## Herramientas utilizadas
 
@@ -15,6 +15,12 @@ Bibliotecas utilizadas:
 - pandas: carga y organización de los datos.
 - matplotlib: elaboración de gráficos.
 - cartopy: elaboración de mapas.
+- xarray: acceso a archivos netCDF
+- eofs: realizar análisis de funciones empíricas ortogonales
+- cmocean: paleta de colores
+- copernicusmarine: acceso a datas de Marine Copernicus
+- numpy: análisis numérico
+- statsmodels: análisis estadístico
 
 La consulta de los límites marítimos requiere conexión a internet.
 
