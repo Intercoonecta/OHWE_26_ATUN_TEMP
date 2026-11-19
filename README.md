@@ -96,9 +96,6 @@ sin demostrar por sí solo relaciones causales.
 - CIAT, datos públicos:
   https://www.iattc.org/en-US/Data/Public-domain
 
-- NOAA, índice RONI:
-  https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/
-
 - Shi, W., & Wang, M. (2024). Ocean variability in the Costa Rica
   Thermal Dome region from 2012 to 2021. Remote Sensing, 16(8), 1340.
   https://doi.org/10.3390/rs16081340
