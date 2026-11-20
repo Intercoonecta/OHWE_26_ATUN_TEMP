@@ -3,7 +3,7 @@
 Equipo: 
 Silvia Ramírez,
 Barbara Závala y 
-Jesús C. Compaire
+Jesús C. Compaire.
 
 Este proyecto se desarrolló para la hackatón AICED 2026. Se intenta explora la relación entre las anomalías mensuales de temperatura superficial del mar y la captura por lance de atún aleta amarilla (*Thunnus albacares*), para ello se ultilizó datos pesqueros de la CIAT y temperatura de Copernicus Marine.
 
