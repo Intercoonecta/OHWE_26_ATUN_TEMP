@@ -15,12 +15,12 @@ El análisis principal se realiza con valores mensuales representativos de una m
 
 ## Área y período
 
-- **Área de estudio:** rectángulo de 7 a 11° N y de 87 a 93° O. Àrea delimitada por Shi y Wang (2024) donde establcen el núcleo climatológico en este cuadrante.
+- **Área de estudio:** rectángulo de 7 a 11° N y de 87 a 93° O. Àrea delimitada por Shi y Wang (2024) donde establecen el núcleo climatológico en este cuadrante.
 - **Temperatura disponible:** enero de 1960 a junio de 2025, a 1 m de profundidad, como aproximación a la temperatura superficial.
-- **Datos coincidentes utilizados:** se encontraron 720 meses entre abril de 1960 y mayo de 2025. Hay meses sin registros pesqueros; no se reemplazan por ceros.
-- **Referencia para las anomalías locales:** 1991–2020, con 360 meses completos.
+- **Datos coincidentes utilizados:** se encontraron 720 meses entre abril de 1960 y mayo de 2025. Hay meses sin registros pesqueros; estos no se reemplazaron por ceros.
+- **Referencia para las anomalías locales:** periodo comprendido entre 1991–2020, con 360 meses completos.
 
-El rectángulo es una delimitación fija de estudio y no representa el borde exacto del Domo en cada fecha. La pesca se selecciona por centros de cuadrícula de 1°. La temperatura y la pesca se emparejan por mes dentro del rectángulo; no se emparejan por cada ubicación de pesca.
+El rectángulo es una delimitación fija de estudio y no representa el borde exacto del Domo en cada fecha ya que durante el año se desplaza. La pesca se selecciona por centros de cuadrícula de 1°. La temperatura y la pesca se emparejan por mes dentro del rectángulo; NO se emparejan por cada ubicación de pesca.
 
 ## Archivos necesarios
 
@@ -34,7 +34,7 @@ El cuaderno genera `atun_aleta_amarilla_region.csv` y `atun_domo_aleta_amarilla.
 
 El README no incluye ni descarga los archivos de datos. Deben estar disponibles localmente en la carpeta de trabajo del cuaderno. Si el NetCDF tiene un sufijo como `(1)`, se debe ajustar `archivo_nc` al nombre real, sin modificar sus datos.
 
-## Bibliotecas
+## Bibliotecas utilizadas
 
 Para el análisis estadístico y los gráficos se utilizan Python, pandas, NumPy, xarray, netCDF4, SciPy, Matplotlib y statsmodels. Los mapas y los EOF también requieren Cartopy, cmocean y eofs.
 
@@ -74,7 +74,7 @@ Las celdas se ejecutan con **Shift + Enter**. Al terminar, guardar el cuaderno p
 
    **Captura por lance mensual = captura mensual total de YFT / lances mensuales totales.**
 
-3. Seleccionar la temperatura a 1 metro dentro del mismo rectángulo y comprobar valores faltantes.
+3. Seleccionar la temperatura a 1m  dentro del mismo rectángulo y comprobar valores faltantes.
 4. Calcular una temperatura media espacial por mes, con pesos de coseno de latitud y pesos reducidos para las celdas de los bordes.
 5. Calcular los 12 promedios mensuales de referencia de 1991–2020 y restarlos a cada mes de toda la serie para obtener anomalías en °C.
 6. Unir pesca y temperatura por fecha, comprobando que cada fecha aparezca una sola vez en cada tabla.
@@ -149,5 +149,6 @@ No se encontraron diferencias claras de las fases positiva y neutra respecto a l
 - [CIAT — Datos públicos](https://www.iattc.org/en-US/Data/Public-domain) y [códigos de referencia](https://www.iattc.org/es-es/Data/Reference-codes).
 - [Copernicus Marine — Producto CORA de temperatura y salinidad mediante análisis objetivo](https://data.marine.copernicus.eu/product/INSITU_GLO_PHY_TS_OA_MY_013_052/description). Dataset utilizado: `cmems_obs-ins_glo_phy-temp-sal_my_cora-oa_P1M`.
 - [OMM — Normales climatológicas](https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals).
+- Shi, W., & Wang, M. (2024). Ocean variability in the Costa Rica Thermal Dome region from 2012 to 2021. Remote Sensing, 16(8), 1340. https://doi.org/10.3390/rs16081340
 
 
