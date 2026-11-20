@@ -1,6 +1,6 @@
 # Temperatura superficial del mar y captura por lance de atún aleta amarilla en el Domo Térmico de Costa Rica
 
-Equipo
+Equipo: 
 Silvia Ramírez
 Barbara Závala
 Jesús C. Compaire
