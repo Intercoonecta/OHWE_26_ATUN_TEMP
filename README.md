@@ -1,6 +1,11 @@
 # Temperatura superficial del mar y captura por lance de atún aleta amarilla en el Domo Térmico de Costa Rica
 
-Proyecto desarrollado para la hackatón AICED 2026. Se explora la relación entre las anomalías mensuales de temperatura superficial del mar y la captura por lance de atún aleta amarilla (*Thunnus albacares*), utilizando datos pesqueros de la CIAT y temperatura de Copernicus Marine.
+Equipo
+Silvia Ramírez
+Barbara Závala
+Jesús C. Compaire
+
+Este proyecto se desarrolló para la hackatón AICED 2026. Se intenta explora la relación entre las anomalías mensuales de temperatura superficial del mar y la captura por lance de atún aleta amarilla (*Thunnus albacares*), para ello se ultilizó datos pesqueros de la CIAT y temperatura de Copernicus Marine.
 
 El análisis principal se realiza con valores mensuales representativos de una misma área. Como complemento, se compara la captura por lance entre las fases de un patrón regional de variación de temperatura, resumido mediante PC1.
 
@@ -11,8 +16,8 @@ El análisis principal se realiza con valores mensuales representativos de una m
 ## Área y período
 
 - **Área de estudio:** rectángulo de 7 a 11° N y de 87 a 93° O.
-- **Temperatura disponible:** enero de 1960 a junio de 2025, a 1 metro de profundidad, como aproximación a la temperatura superficial.
-- **Datos coincidentes utilizados:** 720 meses entre abril de 1960 y mayo de 2025. Hay meses sin registros pesqueros; no se reemplazan por ceros.
+- **Temperatura disponible:** enero de 1960 a junio de 2025, a 1 m de profundidad, como aproximación a la temperatura superficial.
+- **Datos coincidentes utilizados:** se encontraron 720 meses entre abril de 1960 y mayo de 2025. Hay meses sin registros pesqueros; no se reemplazan por ceros.
 - **Referencia para las anomalías locales:** 1991–2020, con 360 meses completos.
 
 El rectángulo es una delimitación fija de estudio y no representa el borde exacto del Domo en cada fecha. La pesca se selecciona por centros de cuadrícula de 1°. La temperatura y la pesca se emparejan por mes dentro del rectángulo; no se emparejan por cada ubicación de pesca.
@@ -145,6 +150,4 @@ No se encontraron diferencias claras de las fases positiva y neutra respecto a l
 - [Copernicus Marine — Producto CORA de temperatura y salinidad mediante análisis objetivo](https://data.marine.copernicus.eu/product/INSITU_GLO_PHY_TS_OA_MY_013_052/description). Dataset utilizado: `cmems_obs-ins_glo_phy-temp-sal_my_cora-oa_P1M`.
 - [OMM — Normales climatológicas](https://community.wmo.int/site/knowledge-hub/programmes-and-initiatives/climate-services/wmo-climatological-normals).
 
-## Equipo
 
-Completar los nombres de todas las personas integrantes y sus contribuciones antes de la entrega final.
