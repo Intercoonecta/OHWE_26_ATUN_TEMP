@@ -15,7 +15,7 @@ El análisis principal se realiza con valores mensuales representativos de una m
 
 ## Área y período
 
-- **Área de estudio:** rectángulo de 7 a 11° N y de 87 a 93° O.
+- **Área de estudio:** rectángulo de 7 a 11° N y de 87 a 93° O. Àrea delimitada por Shi y Wang (2024) donde establcen el núcleo climatológico en este cuadrante.
 - **Temperatura disponible:** enero de 1960 a junio de 2025, a 1 m de profundidad, como aproximación a la temperatura superficial.
 - **Datos coincidentes utilizados:** se encontraron 720 meses entre abril de 1960 y mayo de 2025. Hay meses sin registros pesqueros; no se reemplazan por ceros.
 - **Referencia para las anomalías locales:** 1991–2020, con 360 meses completos.
